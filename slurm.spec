@@ -249,7 +249,7 @@ SLURM authentication module for Chris Dunlap's Munge
 %package bluegene
 Summary: SLURM interfaces to IBM Blue Gene system
 Group: System Environment/Base
-Requires: slurm
+Requires: slurm runjob-devel
 %description bluegene
 SLURM plugin interfaces to IBM Blue Gene system
 %endif
